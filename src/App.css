@@ -1,0 +1,80 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
+}
+.Body{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
+}
+
+
+
+/**/
+.contenedor {
+  background-color: #919090;
+  height: 500px;
+  width: 30%;
+ 
+  box-shadow: 0 2px 4px rgb(110, 110, 110 );
+  
+}
+
+
+
+.contenedor h1 {
+  color: #333;
+}
+
+.contenedor p {
+  color: #0e0000;
+}
+
+/**/
+.barra-superior {
+  background-color: #333;
+  color: rgb(10, 1, 1);
+  padding: 5px;
+  text-align: center;
+}
+
+/**/
+
+.barra-superior {
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  display: flex; 
+  align-items: center; 
+}
+.barra-superior input[type="text"] {
+  padding: 15px;
+  width: 800px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 100px;
+ 
+}
+
+.logo {
+  width: 100px; 
+  height: 100px;
+  margin-right: 15px; 
+}
+
+.T1{
+  width: 390px; 
+  margin-right: 10px; 
+  padding: 2px;
+}
+
+.botonT1{
+    background-color: #3e546b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 45px;
+    margin-top: 30px;
+    width: 100px;
+}
